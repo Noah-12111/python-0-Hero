@@ -1,43 +1,46 @@
-# 🐍 Python Journey
+<div align="center">
 
-> ### **Học Python bằng cách xây dựng — không chỉ học cú pháp.**
->
-> `Learn → Build → Test → Debug → Improve → Commit → Prove`
+```text
+██████╗ ██╗   ██╗████████╗██╗  ██╗ ██████╗ ███╗   ██╗
+██╔══██╗╚██╗ ██╔╝╚══██╔══╝██║  ██║██╔═══██╗████╗  ██║
+██████╔╝ ╚████╔╝    ██║   ███████║██║   ██║██╔██╗ ██║
+██╔═══╝   ╚██╔╝     ██║   ██╔══██║██║   ██║██║╚██╗██║
+██║        ██║      ██║   ██║  ██║╚██████╔╝██║ ╚████║
+╚═╝        ╚═╝      ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+     ██╗ ██████╗ ██╗   ██╗██████╗ ███╗   ██╗███████╗██╗   ██╗
+     ██║██╔═══██╗██║   ██║██╔══██╗████╗  ██║██╔════╝╚██╗ ██╔╝
+     ██║██║   ██║██║   ██║██████╔╝██╔██╗ ██║█████╗   ╚████╔╝
+██   ██║██║   ██║██║   ██║██╔══██╗██║╚██╗██║██╔══╝    ╚██╔╝
+╚█████╔╝╚██████╔╝╚██████╔╝██║  ██║██║ ╚████║███████╗   ██║
+ ╚════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝
+```
 
-<p align="center">
-  <img src="assets/banner.png" alt="Python Journey Banner" width="100%">
+### 🐍 Python Journey
+
+**Học Python bằng cách xây dựng — không chỉ học cú pháp.**
+
+`Learn → Build → Test → Debug → Improve → Commit → Prove`
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Duration-15%20Weeks-f59e0b?style=for-the-badge" alt="15 Weeks">
+  <img src="https://img.shields.io/badge/Level-Beginner-6366f1?style=for-the-badge" alt="Beginner">
 </p>
 
-<p align="center">
-  <b>🐍 Python cơ bản theo hướng học qua làm — từ zero đến một chương trình có thể kiểm chứng.</b>
+<p>
+  <a href="#-python-journey-là-gì">🐍 Giới thiệu</a>
+  ·
+  <a href="#-triết-lý-học">🧠 Triết lý</a>
+  ·
+  <a href="#-lộ-trình-15-tuần">🗓️ Lộ trình</a>
+  ·
+  <a href="#-capstone-project">🏆 Capstone</a>
+  ·
+  <a href="#-bắt-đầu">🚀 Bắt đầu</a>
 </p>
 
-<p align="center">
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License">
-  </a>
-  <a href="#-lộ-trình-15-tuần">
-    <img src="https://img.shields.io/badge/Duration-15%20Weeks-f59e0b?style=for-the-badge" alt="15 Weeks">
-  </a>
-  <a href="#-đối-tượng">
-    <img src="https://img.shields.io/badge/Level-Beginner-6366f1?style=for-the-badge" alt="Beginner">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#-lộ-trình-15-tuần">Lộ trình</a>
-  ·
-  <a href="#-triết-lý-học">Triết lý</a>
-  ·
-  <a href="#-cấu-trúc-repository">Repository</a>
-  ·
-  <a href="#-bắt-đầu">Bắt đầu</a>
-  ·
-  <a href="#-capstone-project">Capstone</a>
-</p>
+</div>
 
 ---
 
@@ -75,13 +78,14 @@ Mà là:
 
 ```text
                     CocAgent Python Learning Path
+
 ┌───────────────────────────────────────────────────────────┐
 │                                                           │
 │  ① python-journey                                         │
 │     🐍 Python nền tảng · 15 tuần       ← BẠN ĐANG Ở ĐÂY │
 │                         ↓                                 │
 │  ② python-mastery                                        │
-│     ⚙️ Python chuyên sâu                                 │
+│     ⚙️ Python chuyên sâu                                  │
 │                         ↓                                 │
 │  ③ dsa-python-course                                     │
 │     🧠 Cấu trúc dữ liệu & thuật toán                     │
@@ -108,17 +112,17 @@ Sau 15 tuần, người học hướng tới khả năng:
                                │
                                ▼
                      ┌────────────────────┐
-                     │  Write Code        │
+                     │    Write Code      │
                      └─────────┬──────────┘
                                │
                                ▼
                      ┌────────────────────┐
-                     │  Test Code         │
+                     │     Test Code      │
                      └─────────┬──────────┘
                                │
                                ▼
                      ┌────────────────────┐
-                     │  Debug Problems    │
+                     │   Debug Problems   │
                      └─────────┬──────────┘
                                │
                                ▼
@@ -128,7 +132,7 @@ Sau 15 tuần, người học hướng tới khả năng:
                                │
                                ▼
                      ┌────────────────────┐
-                     │ Reliable Program   │
+                     │  Reliable Program  │
                      └────────────────────┘
 ```
 
@@ -347,16 +351,16 @@ Python Mastery trả lời:
 
 ### Chưa đi sâu trong Python Journey
 
-* advanced decorators
-* iterators/generators chuyên sâu
-* advanced typing & protocols
-* descriptors/metaclasses
-* advanced mocking
-* concurrency / `asyncio`
-* design patterns
-* architecture
-* profiling / performance
-* packaging / publishing chuyên sâu
+* Advanced decorators
+* Iterators / generators chuyên sâu
+* Advanced typing & protocols
+* Descriptors / metaclasses
+* Advanced mocking
+* Concurrency / `asyncio`
+* Design patterns
+* Architecture
+* Profiling / performance
+* Packaging / publishing chuyên sâu
 
 > 💡 Những nội dung này được dành cho **Python Mastery** hoặc các khóa chuyên sâu hơn.
 
@@ -399,7 +403,7 @@ Mỗi tuần đi theo cùng một workflow:
 
 ```text
 ┌──────────────┐
-│   README     │
+│    README    │
 └──────┬───────┘
        ↓
 ┌──────────────┐
@@ -548,7 +552,11 @@ weeks/
 
 <p align="center">
 
-<a href="#-python-journey-là-gì">🐍 About</a> · <a href="#-triết-lý-học">🧠 Philosophy</a> · <a href="#-lộ-trình-15-tuần">🗓️ Roadmap</a> · <a href="#-capstone-project">🏆 Capstone</a> · <a href="#-bắt-đầu">🚀 Start</a>
+<a href="#-python-journey-là-gì">🐍 About</a>
+ ·  <a href="#-triết-lý-học">🧠 Philosophy</a>
+ ·  <a href="#-lộ-trình-15-tuần">🗓️ Roadmap</a>
+ ·  <a href="#-capstone-project">🏆 Capstone</a>
+ ·  <a href="#-bắt-đầu">🚀 Start</a>
 
 </p>
 
@@ -577,4 +585,3 @@ weeks/
 ⭐ **Nếu repository này hữu ích, hãy Star để đánh dấu hành trình của bạn!**
 
 </div>
-
