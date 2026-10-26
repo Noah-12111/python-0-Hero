@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/kiana-banner.gif" alt="Banner GIF động của Python Journey" width="280">
+  <img src="assets/python-journey-banner.gif" alt="Banner GIF về lập trình Python Journey" width="800">
   <h1>🐍 Python Journey</h1>
   <p><strong>Học Python bằng cách xây dựng — không chỉ học cú pháp.</strong></p>
   <p><code>Learn → Build → Test → Debug → Improve → Commit → Prove</code></p>
