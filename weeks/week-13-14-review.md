@@ -13,6 +13,8 @@ Bạn muốn thêm công việc từ terminal, xem danh sách và đánh dấu �
 
 **Week 13** giúp chia chương trình thành file, nhận lệnh từ terminal và hiểu cách một ứng dụng trao đổi dữ liệu với máy chủ. **Week 14** giúp mô tả từng công việc thành object, gom các công việc vào một đối tượng quản lý, và tạo loại công việc đặc biệt bằng kế thừa.
 
+Bạn cũng có thể chạy ứng dụng mẫu thực tế tại [Study Task Manager](week-13-14-life-project/README.md).
+
 ## 2. Week 13 — chia chương trình và nhận lệnh
 
 ### Module và package
@@ -239,10 +241,14 @@ Nếu sau này muốn đồng bộ danh sách với máy chủ, có thể thêm 
 
 ## 6. Chạy thử bài học
 
-Từ thư mục gốc repository:
+Từ thư mục gốc repository, chạy các bài Week 13 theo module mode:
 
 ```bash
-python weeks/week-13-modules-cli-api/exercises/ex01_modules.py
+cd weeks/week-13-modules-cli-api
+python -m exercises.ex01_modules
+python -m exercises.ex02_cli --turn 3
+python -m exercises.ex03_http
+cd ../..
 python weeks/week-13-modules-cli-api/cli.py --position 1 --goal 4
 python weeks/week-13-modules-cli-api/checks/check_week.py
 python weeks/week-14-oop-essentials/exercises/ex01_classes.py
@@ -250,7 +256,5 @@ python weeks/week-14-oop-essentials/exercises/ex02_composition.py
 python weeks/week-14-oop-essentials/exercises/ex03_inheritance.py
 python weeks/week-14-oop-essentials/checks/check_week.py
 ```
-
-Với các bài trong thư mục `exercises` của Week 13, làm theo hướng dẫn ở [README bài tập](week-13-modules-cli-api/exercises/README.md) để chạy bằng `python -m`.
 
 **Chỉ cần nhớ:** Week 13 dạy cách chia chương trình và giao tiếp với bên ngoài; Week 14 dạy cách tổ chức dữ liệu và hành vi bên trong chương trình.
