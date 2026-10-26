@@ -27,10 +27,10 @@ Ví dụ kết quả có thể tương tự:
 
 ```text
 1. [ ] Ôn OOP
-2. [ ] [Python] Làm bài số 3
+2. [Python] [ ] Làm bài số 3
 Marked task 1 as complete.
 1. [x] Ôn OOP
-2. [ ] [Python] Làm bài số 3
+2. [Python] [ ] Làm bài số 3
 ```
 
 ## Week 13 nằm ở đâu?
