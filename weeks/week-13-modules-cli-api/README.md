@@ -1,22 +1,29 @@
-# Tuần 13 — Modules · Packages · Dependencies · CLI · API/HTTP
+# Tuần 13 — Module, Package, CLI và API/HTTP
 
-Tuần này bạn chia chương trình thành module/package, tạo CLI nhỏ và hiểu
-request/response HTTP qua ví dụ offline trung lập.
+Tuần này học cách chia code thành file có trách nhiệm rõ ràng, nhận lệnh từ terminal và hiểu cách chương trình trao đổi dữ liệu qua HTTP.
 
-## Outcomes
+## Học theo thứ tự
 
-- import standard-library và module tự viết;
-- tạo package với __init__.py và main guard;
-- hiểu vai trò venv, python -m pip và pyproject.toml;
-- nhận argument bằng argparse;
-- nhận biết GET, status code, JSON response, timeout/error;
-- giữ Bot Core tách khỏi Transport/Adapter.
+1. Đọc [lý thuyết và ví dụ đời sống](notes.md).
+2. Hoàn thành ba bài trong [exercises](exercises/README.md).
+3. Xem package mẫu trong `bot_course/`.
+4. Chạy [mini-project](mini-project/README.md).
+5. Chạy lệnh kiểm tra.
 
-Core checks không gọi mạng và không dùng endpoint VuaCóc production.
+## Lệnh chạy nhanh
 
-    python weeks/week-13-modules-cli-api/cli.py --position 1 --goal 4
-    python weeks/week-13-modules-cli-api/checks/check_week.py
+```bash
+cd weeks/week-13-modules-cli-api
+python -m exercises.ex01_modules
+python -m exercises.ex02_cli --turn 3
+python -m exercises.ex03_http
+cd ../..
+python weeks/week-13-modules-cli-api/cli.py --position 1 --goal 4
+python weeks/week-13-modules-cli-api/checks/check_week.py
+```
 
-Xem [notes](notes.md), [package](bot_course/),
-[cách chạy exercises](exercises/README.md),
-[hints](hints.md) và [mini-project](mini-project/README.md).
+Bài HTTP dùng response fixture; không yêu cầu kết nối mạng.
+
+## Ôn chung Week 13 và Week 14
+
+Mời đọc tài liệu [tổng hợp hai tuần bằng ví dụ ứng dụng quản lý việc học](../week-13-14-review.md). Tài liệu giải thích cách module/package và CLI của Week 13 kết hợp với class/object, composition và inheritance của Week 14.
