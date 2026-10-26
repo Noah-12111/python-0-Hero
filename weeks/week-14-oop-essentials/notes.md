@@ -58,7 +58,7 @@ print(progress.percentage())  # 75.0
 print(progress)               # 3/4 bài
 ```
 
-Đọc dòng `Progress(3, 4)` như sau: đã hoàn thành 3 bài trên tổng số 4 bài. Phần trăm là (3 / 4 	imes 100 = 75%).
+Đọc dòng `Progress(3, 4)` như sau: đã hoàn thành 3 bài trên tổng số 4 bài. Phần trăm là **3 / 4 × 100 = 75%**.
 
 ## 4. Encapsulation — gom những thứ có liên quan
 
@@ -119,8 +119,8 @@ class Dog(Animal):
         return f"{self.name}: woof"
 
 dog = Dog("Milo")
-print(dog.speak())           # Milo: woof
-print(isinstance(dog, Animal))  # True
+print(dog.speak())             # Milo: woof
+print(isinstance(dog, Animal)) # True
 ```
 
 `Dog` là một loại `Animal`, nên kế thừa phù hợp. Ngược lại, không nên dùng inheritance chỉ để tái sử dụng vài dòng code.
