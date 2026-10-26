@@ -1,20 +1,49 @@
 """Compose a bot with a replaceable strategy."""
 
-from collections.abc import Callable
-
-Strategy = Callable[[dict[str, int]], str]
-
 
 class Bot:
-    def __init__(self, strategy: Strategy):
+    def __init__(self, strategy):
         self.strategy = strategy
 
-    def choose_action(self, state: dict[str, int]) -> str:
+    def choose_action(self, state):
         return self.strategy(state)
 
 
-def defensive(state: dict[str, int]) -> str:
+def move_toward_goal(state):
+    if state["position"] < state["goal"]:
+        return "right"
+    if state["position"] > state["goal"]:
+        return "left"
     return "wait"
 
 
-print(Bot(defensive).choose_action({"turn": 1}))
+def defensive(state):
+    opponent = state.get("opponent_position")
+    if opponent is not None and abs(opponent - state["position"]) <= 1:
+        return "wait"
+    return move_toward_goal(state)
+
+
+def balanced(state):
+    return move_toward_goal(state)
+
+
+def aggressive(state):
+    # Trong line arena đơn giản, aggressive cũng đi thẳng về goal.
+    return move_toward_goal(state)
+
+
+state = {"position": 3, "opponent_position": 4, "goal": 0}
+
+for name, strategy in [
+    ("defensive", defensive),
+    ("balanced", balanced),
+    ("aggressive", aggressive),
+]:
+    bot = Bot(strategy)
+    print(f"{name}: {bot.choose_action(state)}")
+
+# Output:
+# defensive: wait
+# balanced: left
+# aggressive: left

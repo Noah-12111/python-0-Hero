@@ -1,12 +1,17 @@
-# Mini-project — Strategy Composition
+# Mini-project — Bot đổi strategy
 
-Tạo một Bot nhận strategy qua __init__ rồi chạy cùng một state với:
+Ví dụ nhỏ dùng **composition**: `Bot` nhận một hàm strategy khi tạo object. Mỗi strategy trả về một action trong ba action hợp lệ của bài: `left`, `right`, `wait`.
 
-- defensive;
-- balanced;
-- aggressive.
+Chạy từ thư mục gốc repository:
 
-    python weeks/week-14-oop-essentials/checks/check_week.py
+```bash
+python weeks/week-14-oop-essentials/mini-project/bot_demo.py
+```
 
-Giữ strategy là function hoặc object nhỏ. Không sửa arena core và không biến
-inheritance thành kiến trúc bắt buộc.
+Chương trình sẽ minh họa:
+- goal ở bên phải (`goal = 4`) thì bot di chuyển `right`;
+- goal ở bên trái (`goal = 0`) thì bot di chuyển `left`;
+- defensive đứng yên (`wait`) khi đối thủ ở ngay cạnh;
+- đổi strategy bằng cách tạo `Bot(strategy)` mới, không sửa class `Bot`.
+
+Đây là **line arena riêng của khóa học**, không phải cam kết về quy tắc của một dịch vụ bên ngoài.

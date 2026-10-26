@@ -1,21 +1,35 @@
-# Tuần 14 — OOP Essentials · Composition · Basic inheritance
+# Tuần 14 — OOP cơ bản, Composition và Inheritance
 
-Tuần này bạn gom state và behavior có cùng trách nhiệm vào object. Với bot,
-composition là lựa chọn chính: Bot nhận một strategy có thể thay thế.
+Mục tiêu là gom dữ liệu và hành động có liên quan vào object, sau đó biết cách thay đổi hành vi mà không phải sửa class chính.
 
-## Outcomes
+## Học theo thứ tự
 
-- tạo class, object, __init__, instance attributes, methods và `__str__`;
-- hiểu encapsulation là giữ một trách nhiệm cùng dữ liệu liên quan;
-- dùng composition trước inheritance;
-- đổi defensive/balanced/aggressive strategy mà không sửa arena core;
-- dùng basic inheritance khi quan hệ “is-a” thật rõ.
+1. Đọc [lý thuyết tiếng Việt, có ví dụ](notes.md).
+2. Xem ví dụ trong [examples](examples/).
+3. Làm ba bài trong [exercises](exercises/).
+4. Chạy [mini-project](mini-project/README.md).
+5. Kiểm tra lời giải mẫu bằng [machine check](checks/README.md).
 
-## Thứ tự học
+## Nội dung cần nhớ
 
-    class/object → responsibility → composition → strategy swap
-                 → basic inheritance
+- **Class** là bản vẽ; **object** là đối tượng tạo ra từ class.
+- `__init__` khởi tạo dữ liệu; `self` là object hiện tại.
+- **Method** là hàm bên trong class; `__str__` giúp `print(object)` dễ đọc hơn.
+- **Composition**: một object sử dụng thành phần/hành vi khác, như `Bot` sử dụng một strategy.
+- **Inheritance**: class con là một loại class cha, như `Dog` là `Animal`.
 
-Xem [notes](notes.md), [examples](examples/), [exercises](exercises/),
-[hints](hints.md), [machine check](checks/README.md) và
-[mini-project](mini-project/README.md).
+## Chạy bài tập
+
+Chạy các lệnh sau từ thư mục gốc repository:
+
+```bash
+python weeks/week-14-oop-essentials/exercises/ex01_classes.py
+python weeks/week-14-oop-essentials/exercises/ex02_composition.py
+python weeks/week-14-oop-essentials/exercises/ex03_inheritance.py
+python weeks/week-14-oop-essentials/mini-project/bot_demo.py
+python weeks/week-14-oop-essentials/checks/check_week.py
+```
+
+Nếu các phần được cài đặt đúng, lệnh kiểm tra cuối in ra `Week 14 solution checks: PASS`.
+
+Không cần học kiến trúc phức tạp: ưu tiên ví dụ nhỏ, dễ chạy và dễ giải thích.
